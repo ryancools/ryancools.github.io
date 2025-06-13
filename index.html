@@ -39,7 +39,7 @@
 		    
               <p> I am currently an Associate Professor with the <a href="https://www.sigs.tsinghua.edu.cn/en/">Tsinghua University SIGS</a>. I received my Ph.D. degree from Carnegie Mellon University under the supervision of Prof. Pei Zhang. 
 				I am committed to using multi-agent collaborative strategies to solve real problems in smart cities and industries on a city-level large-scale AIoT platform.  </p>
-			  <p> Research interests: Cyber Physical System, Artificial Internet of Things, Multi-agent System, Ubiquitous Computing, Mobile Computing, Smart Sensing, Wireless Communication and Network.</p>
+			  <p> <b>Research interests:</b> Cyber Physical System, Artificial Internet of Things, Multi-agent System, Ubiquitous Computing, Mobile Computing, Smart Sensing, Wireless Communication and Network.</p>
 		
               <p style="text-align:center">
                 <a href="mailto:chen.xinlei@sz.tsinghua.edu.cn">Email</a> &nbsp/&nbsp
@@ -62,6 +62,11 @@
 		 <p> 
 		<ul class="b">
 			<p> 
+			<li> [2025.05] <font color="#DC143C"> <b>New!</b> </font> Our research project has won <b>Sliver Prize</b> at 50th International Exhibition of Inventions Geneva!
+			<li> [2025.05] <font color="#DC143C"> <b>New!</b> </font> Three works are accepted by <b>ACL 2025</b>! Congrats to Fanhang, Baining, and Weichen! </li>
+			<li> [2025.04] <font color="#DC143C"> <b>New!</b> </font> <b>CatUA</b> is accepted by <b>IEEE TMC</b>! Congrats to Nan Zhou! </li>
+			<li> [2025.04] <font color="#DC143C"> <b>New!</b> </font> Curious about event camera-based mobile sensing? Our <a href="https://arxiv.org/abs/2503.22943"><b>New Survey</b></a> gives a comprehensive overview—don't miss it! </li>
+			<li> [2025.01] Our work <b>mmE-Loc</b> is conditionally accepted by <b>ACM SenSys 2025</a></b>! </li>
 			<li> [2024.10] Our work <b>AirTouch</b> received all four badges from ACM Artifact Evaluation!
 			<li> [2024.06] Our work <b>DDL</b> is accepted by <b>IEEE JSTSP</a></b>! Congrats to Xuecheng! </li>
 			<li> [2024.06] Our work <b>AirTouch</b> is conditionally accepted by <b>ACM MobiCom 2024</a></b>! Congrats to Chenyu!  </li>
@@ -80,6 +85,35 @@
 	<p><heading>Selected Publications (*: Co-primary authors; †: Corresponding author) </heading></p>
 	<ul class="b">
 	<!-- <p><h4>Conference Paper</h4></p> -->
+
+	<tr onmouseout="mmeloc_stop()" onmouseover="mmeloc_start()">
+	    <td style="padding:5px;width:25%;vertical-align:middle">
+	      <div class="one">
+			<div class="two" id='mmeloc_image'><img src='images/mmeloc_SenSys.png' width="200"></div>
+			<img src='images/mmeloc_SenSys.png' width="200">
+	      </div>
+	      <script type="text/javascript">
+			function mmeloc_start() {
+			document.getElementById('mmeloc_image').style.opacity = "1";
+			}
+
+			function mmeloc_stop() {
+			document.getElementById('mmeloc_image').style.opacity = "0";
+			}
+			mmeloc_stop()
+	      </script>
+	    </td>
+		
+            <td style="padding:10px;width:75%;vertical-align:middle">
+		<p> <a href="https://dl.acm.org/doi/10.1145/3715014.3722048"> <b>Ultra-High-Frequency Harmony: mmWave Radar and Event Camera Orchestrate Accurate Drone Landing</b> </a></p>
+			Haoyang Wang, Jingao Xu, Xinyu Luo, Xuecheng Chen, Ting Zhang, Ruiyang Duan, Yunhao Liu, <u><b>Xinlei Chen†</b></u> <br>
+		<p> <font color="#DC143C"><b>[ACM SenSys 2025]</b></font> In the 23rd ACM Conference on Embedded Networked Sensor Systems <b>(Acceptance ratio: 46/245=18.7%)</b> <br>
+		</p> 
+		<p> 	
+			[<a href="https://mme-loc.github.io/">Website homepage</a>]
+		</p> 
+		 </td>			
+		</tr>
 
 	<tr onmouseout="AirTouch_stop()" onmouseover="AirTouch_start()">
 		<td style="padding:5px;width:25%;vertical-align:middle">
@@ -100,9 +134,9 @@
 		</td>
 		
 			<td style="padding:10px;width:75%;vertical-align:middle">
-		<p>  Foes or Friends: Embracing Ground Effect for Edge Detection on Lightweight Drones </a></p>
-			Chenyu Zhao*, Ciyu Ruan*, Jingao Xu†, Haoyang Wang, Shengbo Wang, Jirong Zha, Jiaqi Li, Zheng Yang, Yunhao Liu, Xiao-Ping Zhang, <u><b>Xinlei Chen†</b></u> <br>
-		<p> <font color="red">[<b>ACM MobiCom 2024</b>]</font> In the ACM 30th Annual International Conference On Mobile Computing And Networking. Conditionally accepted!   <br>
+		<p>  <a href="https://dl.acm.org/doi/abs/10.1145/3636534.3690699"> <b>Foes or Friends: Embracing Ground Effect for Edge Detection on Lightweight Drones</b> </a></p>			
+		Chenyu Zhao*, Ciyu Ruan*, Jingao Xu†, Haoyang Wang, Shengbo Wang, Jirong Zha, Jiaqi Li, Zheng Yang, Yunhao Liu, Xiao-Ping Zhang, <u><b>Xinlei Chen†</b></u> <br>
+		<p> <font color="#DC143C">[<b>ACM MobiCom 2024</b>]</font> In the ACM 30th Annual International Conference On Mobile Computing And Networking. Conditionally accepted!   <br>
 		<p> 	
 		</p> 
 			</td>			
@@ -128,9 +162,9 @@
 	    </td>
 		
             <td style="padding:10px;width:75%;vertical-align:middle">
-		<p> <a href="https://dl.acm.org/doi/abs/10.1145/3643832.3661872"> MobiAir: Unleashing Sensor Mobility for City-scale and Fine-grained Air-Quality Monitoring with AirBERT </a></p>
+		<p> <a href="https://dl.acm.org/doi/abs/10.1145/3643832.3661872"> <b>MobiAir: Unleashing Sensor Mobility for City-scale and Fine-grained Air-Quality Monitoring with AirBERT</b> </a></p>
 			Yuxuan Liu*, Haoyang Wang*, Fanhang Man, Jingao Xu, Fan Dang, Yunhao Liu, Xiao-Ping Zhang, <u><b>Xinlei Chen†</b></u> <br>
-		<p> <font color="red">[<b>ACM MobiSys 2024</b>]</font> In the 22nd ACM International Conference on Mobile Systems, Applications, and Services (Acceptance ratio: 43/263 = 16.3%) <br>
+		<p> <font color="#DC143C">[<b>ACM MobiSys 2024</b>]</font> In the 22nd ACM International Conference on Mobile Systems, Applications, and Services (Acceptance ratio: 43/263 = 16.3%) <br>
 		<p> 	
 		</p> 
 		 </td>			
@@ -156,9 +190,9 @@
 	    </td>
 		
             <td style="padding:10px;width:75%;vertical-align:middle">
-		<p> <a href="https://arxiv.org/html/2403.08815v1"> TransformLoc: Transforming MAVs into Mobile Localization Infrastructures in Heterogeneous Swarms </a></p>
+		<p> <a href="https://arxiv.org/html/2403.08815v1"> <b>TransformLoc: Transforming MAVs into Mobile Localization Infrastructures in Heterogeneous Swarms</b> </a></p>
 			Haoyang Wang, Jingao Xu, Chenyu Zhao, Zihong Lu, Yuhan Cheng, Xuecheng Chen, Xiao-Ping Zhang, Yunhao Liu, <u><b>Xinlei Chen†</b></u><br>
-		<p> <font color="red">[<b>IEEE INFOCOM 2024</b>]</font> In the IEEE International Conference on Computer Communications 2024 (Acceptance ratio: 256/1307=19.5%) <br>
+		<p> <font color="#DC143C">[<b>IEEE INFOCOM 2024</b>]</font> In the IEEE International Conference on Computer Communications 2024 (Acceptance ratio: 256/1307=19.5%) <br>
 		</p> 
 		 </td>			
           </tr>
@@ -183,9 +217,9 @@
 	</td>
 	
 		<td style="padding:10px;width:75%;vertical-align:middle">
-	<p> <a href="https://ieeexplore.ieee.org/abstract/document/10621374">QUEST: Quality-informed Multi-agent Dispatching System for Optimal Mobile Crowdsensing </a></p>
+	<p> <a href="https://ieeexplore.ieee.org/abstract/document/10621374"><b>QUEST: Quality-informed Multi-agent Dispatching System for Optimal Mobile Crowdsensing</b> </a></p>
 		Zuxin Li, Fanhang Man, Xuecheng Chen, Susu Xu, Fan Dang, Xiao-Ping Zhang, <u><b>Xinlei Chen†</b></u><br>
-	<p> <font color="red">[<b>IEEE INFOCOM 2024</b>]</font> In the IEEE International Conference on Computer Communications 2024 (Acceptance ratio: 256/1307=19.5%) <br>
+	<p> <font color="#DC143C">[<b>IEEE INFOCOM 2024</b>]</font> In the IEEE International Conference on Computer Communications 2024 (Acceptance ratio: 256/1307=19.5%) <br>
 	</p> 
 		</td>			
 		</tr>
@@ -213,7 +247,7 @@
 			<td style="padding:10px;width:75%;vertical-align:middle">
 		<p>  <a href="https://dl.acm.org/doi/10.1145/2809695.2809724">DrunkWalk: Collaborative and Adaptive Planning for Navigation of Micro-Aerial Sensor Swarms </a></p>
 			<u><b>Xinlei Chen</b></u>, Aveek Purohit, Carlos Ruiz Dominguez, Stefano Carpin, Pei Zhang† <br>
-		<p> <font color="red">[<b>ACM SenSys 2015</b>]</font> The 13th ACM Conference on Embedded Networked Sensor Systems (SenSys 2015) <br>
+		<p> <font color="#DC143C">[<b>ACM SenSys 2015</b>]</font> The 13th ACM Conference on Embedded Networked Sensor Systems (SenSys 2015) <br>
 		<p> 	
 		</p> 
 			</td>			
@@ -222,115 +256,140 @@
 
 		
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-               <p><heading>Other Publications (*: Co-primary authors; †: Corresponding author)</heading> </p>
+               <p><heading>Conference Publications (*: Co-primary authors; †: Corresponding author)</heading> </p>
 		<p> 
 	     <ul class="b">
 		
 		<b> For all publications, please refer to <a href="https://scholar.google.com.hk/citations?user=Ha8rlUgAAAAJ&hl=zh-CN&oi=ao"> Google Scholar </a> for the most updated list. </b> <br> <br> 
-		<!-- <li> Foes or Friends: Embracing Ground Effect for Edge Detection on Lightweight Drones
-			</li>
-			Chenyu Zhao, Ciyu Ruan, Jingao Xu, <u><b>Haoyang Wang</b></u>, Shengbo Wang, Jirong Zha, Jiaqi Li, Zheng Yang, Yunhao Liu, Xiao-Ping Zhang, Xinlei Chen<br>
-	   	<i>  [<b>ACM MobiCom 2024</b>] In the ACM 30th Annual International Conference On Mobile Computing And Networking </i><br> </p> -->
+
+
+		
+
+		<li> <a href="https://arxiv.org/abs/2505.24331"> Context-Aware Sentiment Forecasting via LLM-based Multi-Perspective Role-Playing Agents </a> </li>
+		Fanhang Man, Huandong Wang, Jianjie Fang, Zhaoyi Deng, Baining Zhao, <u><b>Xinlei Chen†</b></u>, Yong Li <br>
+		<i>  <font color="#DC143C"><b>[ACL 2025]</b></font> The 63rd Annual Meeting of the Association for Computational Linguistics.</b> </i><br> </p>
+
+
+		<li> <a href="https://arxiv.org/abs/2505.05622"> CityNavAgent: Aerial Vision-and-Language Navigation with Hierarchical Semantic Planning and Global Memory </a> </li>
+		Weichen Zhang, Chen Gao, Shiquan Yu, Ruiying Peng, Baining Zhao, Qian Zhang, Jinqiang Cui, <u><b>Xinlei Chen†</b></u>, Yong Li <br>
+		<i>  <font color="#DC143C"><b>[ACL 2025]</b></font> The 63rd Annual Meeting of the Association for Computational Linguistics.</b> </i><br> </p>
+
+		<li> <a href="https://dl.acm.org/doi/10.1145/3715014.3722048"> Urbanvideo-bench: Benchmarking vision-language models on embodied intelligence with video data in urban spaces </a> </li>
+		Baining Zhao, Jianjie Fang, Zichao Dai, Ziyou Wang, Jirong Zha, Weichen Zhang, Chen Gao, Yue Wang, Jinqiang Cui, <u><b>Xinlei Chen†</b></u>, Yong Li <br>
+		<i>  <font color="#DC143C"><b>[ACL 2025]</b></font> The 63rd Annual Meeting of the Association for Computational Linguistics. </b> </i><br> </p>
+	
+
+		<li> <a href="https://dl.acm.org/doi/10.1145/3715014.3722048"> Ultra-High-Frequency Harmony: mmWave Radar and Event Camera Orchestrate Accurate Drone Landing </a> </li>
+		Haoyang Wang, Jingao Xu, Xinyu Luo, Xuecheng Chen, Ting Zhang, Ruiyang Duan, Yunhao Liu, <u><b>Xinlei Chen†</b></u> <br>
+		<i>  <font color="#DC143C"><b>[ACM SenSys 2025]</b></font> In the 23rd ACM Conference on Embedded Networked Sensor Systems <b>(Acceptance ratio: 46/245=18.7%)</b> </i><br> </p>
+
+		<li> <a href="https://dl.acm.org/doi/abs/10.1145/3636534.3690699">Foes or Friends: Embracing Ground Effect for Edge Detection on Lightweight Drones</a> </li>
+			Chenyu Zhao, Ciyu Ruan, Jingao Xu, Haoyang Wang, Shengbo Wang, Jirong Zha, Jiaqi Li, Zheng Yang, Yunhao Liu, Xiao-Ping Zhang, <u><b>Xinlei Chen†</b></u><br>
+	   	<i>  <font color="#DC143C">[<b>ACM MobiCom 2024</b>]</font> In the ACM 30th Annual International Conference On Mobile Computing And Networking </i><br> </p>
+		
+		<li> <a href="https://dl.acm.org/doi/abs/10.1145/3643832.3661872"> MobiAir: Unleashing Sensor Mobility for City-scale and Fine-grained Air-Quality Monitoring with AirBERT </a>
+		</li>
+		Yuxuan Liu*, Haoyang Wang*, Fanhang Man, Jingao Xu, Fan Dang, Yunhao Liu, Xiao-Ping Zhang, <u><b>Xinlei Chen†</b></u> <br>
+		<i>  <font color="#DC143C"><b>[ACM MobiSys 2024]</b></font> In the 22nd ACM International Conference on Mobile Systems, Applications, and Services <b>(Acceptance ratio: 43/263 = 16.3%)</b> </i><br> </p>
+		 
+
+		<li> <a href="https://ieeexplore.ieee.org/document/10621375">TransformLoc: Transforming MAVs into Mobile Localization Infrastructures in Heterogeneous Swarms </a>
+		</li>
+		Haoyang Wang, Jingao Xu, Chenyu Zhao, Zihong Lu, Yuhan Cheng, Xuecheng Chen, Xiao-Ping Zhang, Yunhao Liu, <u><b>Xinlei Chen†</b></u> <br>
+		<i>  <font color="#DC143C"><b>[IEEE INFOCOM 2024]</b></font> In the IEEE International Conference on Computer Communications 2024 <b>(Acceptance ratio: 256/1307=19.5%)</b> </i><br> </p>
+	   
+		<li> <a href="https://ieeexplore.ieee.org/abstract/document/10621374">QUEST: Quality-informed Multi-agent Dispatching System for Optimal Mobile Crowdsensing </a></li>
+		Zuxin Li, Fanhang Man, Xuecheng Chen, Susu Xu, Fan Dang, Xiao-Ping Zhang, <u><b>Xinlei Chen†</b></u><br>
+		<p> <font color="#DC143C">[<b>IEEE INFOCOM 2024</b>]</font> In the IEEE International Conference on Computer Communications 2024 (Acceptance ratio: 256/1307=19.5%) <br>
+		</p> 
 
 		<li> <a href="https://ieeexplore.ieee.org/document/10621142">BlueKey: Exploiting Bluetooth Low Energy for Enhanced Physical-Layer Key Generation </a> </li>
 		   Yawen Zheng, Fan Dang, Zihao Yang, Jinyan Jiang, Xu Wang, Lin Wang, Kebin Liu, <u><b>Xinlei Chen</b></u>, Yunhao Liu <br>
-	   	<i>  <font color="red">[<b>IEEE INFOCOM 2024</b>]</font> In the IEEE International Conference on Computer Communications 2024 (Acceptance ratio: 256/1307=19.5%) </i> <br> </p>
+	   	<i>  <font color="#DC143C">[<b>IEEE INFOCOM 2024</b>]</font> In the IEEE International Conference on Computer Communications 2024 (Acceptance ratio: 256/1307=19.5%) </i> <br> </p>
 
 		<li> <a href="https://dl.acm.org/doi/abs/10.1145/3495243.3560521"> StreamingTag: A scalable piracy tracking solution for mobile streaming services </a> </li>
 			Xinqi Jin, Fan Dang, Qi-An Fu, Lingkun Li, Guanyan Peng, <u><b>Xinlei Chen</b></u>, Kebin Liu, Yunhao Liu <br>
-	   	<i>  <font color="red">[<b>ACM MobiCom 2022</b>]</font> Proceedings of the 28th Annual International Conference on Mobile Computing And Networking. </i><br> </p>
+	   	<i>  <font color="#DC143C">[<b>ACM MobiCom 2022</b>]</font> Proceedings of the 28th Annual International Conference on Mobile Computing And Networking. </i><br> </p>
 
 		<li> <a href="https://ieeexplore.ieee.org/abstract/document/9796933/"> LSync: A universal event-synchronizing solution for live streaming </a> </li>
 		   Yifan Xu, Fan Dang, Rongwu Xu, <u><b>Xinlei Chen</b></u>, Yunhao Liu <br>
-	   	<i>  <font color="red">[<b>IEEE INFOCOM 2022</b>]</font> IEEE INFOCOM 2022-IEEE Conference on Computer Communications. </i><br> </p>
-	
-		<li> <a href="https://ieeexplore.ieee.org/abstract/document/10605737">DDL: Empowering Delivery Drones With Large-Scale Urban Sensing Capability </a> </li>
-			Xuecheng Chen*, Haoyang Wang*, Yuhan Cheng, Haohao Fu, Yuxuan Liu, Fan Dang, Yunhao Liu, Jinqiang Cui, <u><b>Xinlei Chen†</b></u><br>
-		<i>  <font color="red">[<b>IEEE J-STSP</b>]</font> IEEE Journal of Selected Topics in Signal Processing, 2024. </i><br> </p>
-
-		<li> <a href="https://ieeexplore.ieee.org/document/10502270">SOScheduler: Toward Proactive and Adaptive Wildfire Suppression via Multi-UAV Collaborative Scheduling </a> </li>
-			Xuecheng Chen, Zijian Xiao, Yuhan Cheng, ChenChun Hsia, Haoyang Wang, Jingao Xu, Susu Xu, Fan Dang, Xiao-Ping Zhang, Yunhao Liu, <u><b>Xinlei Chen†</b></u><br>
-	   	<i>  <font color="red">[<b>IEEE IOT-J</b>]</font> IEEE Internet of Things Journal </i><br> </p>
-
-		<li> <a href="https://dl.acm.org/doi/abs/10.1145/3641280">BEANet: An Energy-efficient BLE Solution for High-capacity Equipment Area Network </a> </li>
-		   Yifan Xu, Fan Dang, Kebin Liu, Zhui Zhu, <u><b>Xinlei Chen</b></u>, Xu Wang, Xin Miao, Haitian Zhao <br>
-		<i>  <font color="red">[<b>ACM TOSN</b>]</font> ACM Transactions on Sensor Networks, 2024. </i> <br> </p>
-
-		<li> <a href="https://ieeexplore.ieee.org/abstract/document/10555015">LSync: A Universal Timeline-Synchronizing Solution for Live Streaming  </a> </li>
-			Fan Dang, Yifan Xu, Rongwu Xu, <u><b>Xinlei Chen</b></u>, Yunhao Liu <br>
-		<i>  <font color="red">[<b>IEEE TON</b>]</font> IEEE/ACM Transactions on Networking, 2024. </i><br> </p>
-
-		<!-- <li> <a href="https://dl.acm.org/doi/abs/10.1145/3594739.3612917">CaliFormer: Leveraging Unlabeled Measurements to Calibrate Sensors with Self-supervised Learning</a> </li>
-			Haoyang Wang*, Yuxuan Liu*, Chenyu Zhao, Jiayou He, Wenbo Ding, <u><b>Xinlei Chen†</b></u><br>
-		<p>	<font color="red">Best Presentation Award (1 out of all submissions) </font> <br> 
-	   	<i>  <font color="red">[<b>ACM Ubicomp CPD 2023</b>]</font> In the ACM International Joint Conference on Pervasive and Ubiquitous Computing CPD Workshop 2023 </i><br> </p> -->
-
-		<!-- <li> <a href="https://dl.acm.org/doi/pdf/10.1145/3638550.3643620">Poster: Fusing Event and Depth Sensing for Dynamic Objects Localization and Tracking
-			</a> [<a href="https://dl.acm.org/doi/pdf/10.1145/3638550.3643620"> paper</a>] </li>
-			<u><b>Haoyang Wang</b></u>, Xinyu Luo, Ciyu Ruan, Xuecheng Chen, Wenhua Ding, Yuxuan Liu, Xinlei Chen<br>
-	   	<i>  [<b>ACM HotMobile 2024 Poster</b>] In the Proceedings of the 25th International Workshop on Mobile Computing Systems and Applications </i><br> </p>
-
-		<li> <a href="https://dl.acm.org/doi/pdf/10.1145/3638550.3643049">Poster: Olfactory Sensing in Turbulent Airflow via Collaborative Robots
-			</a> [<a href="https://dl.acm.org/doi/pdf/10.1145/3638550.3643049"> paper</a>] </li>
-			Yuhan Cheng*, Xuecheng Chen*, Yixuan Yang, <u><b>Haoyang Wang</b></u>, Yuxuan Liu, Xinlei Chen<br>
-	   	<i>  [<b>ACM HotMobile 2024 Poster</b>] In the Proceedings of the 25th International Workshop on Mobile Computing Systems and Applications </i><br> </p> -->
-
-		<!-- <li> <a href="https://dl.acm.org/doi/abs/10.1145/3594739.3612907">SmoothLander: A Quadrotor Landing Control System with Smooth Trajectory Guarantee Based on Reinforcement Learning </a> </li>
-			Chenyu Zhao*, Haoyang Wang*, Jiaqi Li, Fanhang Man, Shilong Mu, Wenbo Ding, Xiao-Ping Zhang, <u><b>Xinlei Chen†</b></u><br>
-		<i>  <font color="red">[<b>ACM Ubicomp CPD 2023</b>]</font> In the ACM International Joint Conference on Pervasive and Ubiquitous Computing CPD Workshop 2023  </i><br> </p> -->
-
-		<!-- <li> <a href="https://dl.acm.org/doi/abs/10.1145/3560905.3568432">H-SwarmLoc: Efficient Scheduling for Localization of Heterogeneous MAV Swarm with Deep Reinforcement Learning</a></li>
-		Haoyang Wang*, Xuecheng Chen*, Yuhan Cheng, Chenye Wu, Fan Dang, <u><b>Xinlei Chen†</b></u><br>
-	   	<i>  <font color="red">[<b>ACM Sensys CML-IoT 2022</b>]</font> In the 20th ACM Conference on Embedded Networked Sensor Systems CML-IoT Workshop 2022 </i><br> </p> -->
+	   	<i>  <font color="#DC143C">[<b>IEEE INFOCOM 2022</b>]</font> IEEE INFOCOM 2022-IEEE Conference on Computer Communications. </i><br> </p>
 
 		<li> <a href="https://dl.acm.org/doi/abs/10.1145/3544793.3560412"> DeliverSense: Efficient Delivery Drone Scheduling for Crowdsensing with Deep Reinforcement Learning </a> </li>
 			Xuecheng Chen, Haoyang Wang, Zuxin Li, Wenbo Ding, Fan Dang, Chengye Wu, <u><b>Xinlei Chen†</b></u> <br>
-		<p>	<font color="red">Best Paper Award (1 out of all submissions) </font> <br> 
-		<i>  <font color="red">[<b>ACM Ubicomp CPD 2022</b>]</font> In the ACM International Joint Conference on Pervasive and Ubiquitous Computing CPD Workshop 2022 </i><br> </p>
-
-
-		<li> <a href="https://ieeexplore.ieee.org/abstract/document/9542927/"> A wearable low-power collaborative sensing system for high-quality SSVEP-BCI signal acquisition </a> </li>
-			Rui Na, Dezhi Zheng, Ying Sun, Mingzhe Han, Shuai Wang, Shuailei Zhang, Qianxin Hui, <u><b>Xinlei Chen†</b></u>, Jun Zhang, Chun Hu <br>
-		<i>  <font color="red">[<b>IEEE IoT-J</b>]</font> IEEE Internet of Things Journal, 2021. </i><br> </p>
-
-		<li> <a href="https://ieeexplore.ieee.org/abstract/document/9542927/"> Ultralow-power sensing framework for internet of things: A smart gas meter as a case </a> </li>
-			Ziteng Wang, Chun Hu, Dezhi Zheng, <u><b>Xinlei Chen†</b></u> <br>
-		<i>  <font color="red">[<b>IEEE IoT-J</b>]</font> IEEE Internet of Things Journal, 2021. </i><br> </p>
-
-		<li> <a href="https://ieeexplore.ieee.org/abstract/document/9241405/"> Adaptive hybrid model-enabled sensing system (HMSS) for mobile fine-grained air pollution estimation </a> </li>
-			<u><b>Xinlei Chen</b></u>, Susu Xu, Xinyu Liu, Xiangxiang Xu, Hae Young Noh, Lin Zhang, Pei Zhang <br>
-		<i>  <font color="red">[<b>IEEE TMC</b>]</font> IEEE Transactions on Mobile Computing, 2020. </i><br> </p>
-
-		<li> <a href="https://dl.acm.org/doi/abs/10.1145/3382094"> H-DrunkWalk: Collaborative and adaptive navigation for heterogeneous MAV swarm </a> </li>
-			<u><b>Xinlei Chen</b></u>, Carlos Ruiz, Sihan Zeng, Liyao Gao, Aveek Purohit, Stefano Carpin, Pei Zhang <br>
-		<i>  <font color="red">[<b>ACM TOSN</b>]</font> ACM Transactions on Sensor Networks (TOSN), 2020. </i><br> </p>
-
-		<li> <a href="https://ieeexplore.ieee.org/ielaam/6488907/9091956/8964368-aam.pdf"> Pas: Prediction-based actuation system for city-scale ridesharing vehicular mobile crowdsensing </a> </li>
-			<u><b>Xinlei Chen</b></u>, Susu Xu, Jun Han, Haohao Fu, Xidong Pi, Carlee Joe-Wong, Yong Li, Lin Zhang, Hae Young Noh, Pei Zhang <br>
-		<i>  <font color="red">[<b>IEEE IoT-J</b>]</font> IEEE Internet of Things Journal, 2020. </i><br> </p>
-
-		<li> <a href="https://ieeexplore.ieee.org/abstract/document/8712442"> ilocus: Incentivizing vehicle mobility to optimize sensing distribution in crowd sensing </a> </li>
-			Susu Xu*, <u><b>Xinlei Chen*</b></u>, Xidong Pi, Carlee Joe-Wong, Pei Zhang, Hae Young Noh <br>
-		<i>  <font color="red">[<b>IEEE TMC</b>]</font> IEEE Transactions on Mobile Computing, 2019. </i><br> </p>
-
-		<li> <a href="https://dl.acm.org/doi/abs/10.1145/3382094"> Design experiences in minimalistic flying sensor node platform through sensorfly </a> </li>
-			<u><b>Xinlei Chen</b></u>, Aveek Purohit, Shijia Pan, Carlos Ruiz, Jun Han, Zheng Sun, Frank Mokaya, Patric Tague, Pei Zhang<br>
-		<i>  <font color="red">[<b>ACM TOSN</b>]</font> ACM Transactions on Sensor Networks (TOSN), 2017. </i><br> </p>
-
-
-
-		<!-- <li> <a href="https://dl.acm.org/doi/abs/10.1145/3583120.3589820"> TENG-enabled Self-powered Human-machine Interfaces for the Metaverse </a> 
-		[<a href="https://dl.acm.org/doi/abs/10.1145/3583120.3589820"> paper</a>] 
-		</li>
-			<u><b>Haoyang Wang*</u></b>, Fanhang Man*, Zihan Wang, Yuxuan Liu, Xinlei Chen, Wenbo Ding <br>
-		<i>  [<b>IEEE IPSN 2023 Poster</b>] In the Proceedings of the 22nd International Conference on Information Processing in Sensor Networks </i><br> </p> -->
-
-	
+		<p>	<font color="#DC143C">Best Paper Award (1 out of all submissions) </font> <br> 
+		<i>  <font color="#DC143C">[<b>ACM Ubicomp CPD 2022</b>]</font> In the ACM International Joint Conference on Pervasive and Ubiquitous Computing CPD Workshop 2022 </i><br> </p>
 
 
 		</td>
 		</tbody>
 	</table>
+
+	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+		<p><heading>Journal Publications (*: Co-primary authors; †: Corresponding author)</heading> </p>
+		<p> 
+		<ul class="b">
+		
+		<b> For all publications, please refer to <a href="https://scholar.google.com.hk/citations?user=Ha8rlUgAAAAJ&hl=zh-CN&oi=ao"> Google Scholar </a> for the most updated list. </b> <br> <br> 
+
+		<li> <a href="https://ieeexplore.ieee.org/iel8/7755/4358975/10944224.pdf">SmartSpr: A Physics-informed Mobile Sprinkler Scheduling System for Reducing Urban Particulate Matter Pollution</a>
+		</li>
+		Ji Luo, Zijian Xiao, Zuxin Li, Xuecheng Chen, Chaopeng Hong, Xiao-Ping Zhang, <u><b>Xinlei Chen†</b></u><br>
+		<i>  <font color="#DC143C"><b>[IEEE TMC]</b></font>  IEEE Transactions on Mobile Computing, 2025. <b>(CCF-A, SCI Q1, IF:7.7)</b> </i><br> </p>
+
+		<li> <a href="https://ieeexplore.ieee.org/document/10962560">CatUA: Catalyzing Urban Air Quality Intelligence through Mobile Crowd-sensing</a>
+		</li>
+		Nan Zhou*, Yuxuan Liu*, Haoyang Wang*, Fanhang Man, Jingao Xu, Fan Dang, Chaopeng Hong, Yunhao Liu, Xiao-Ping Zhang, <u><b>Xinlei Chen†</b></u><br>
+		<i>  <font color="#DC143C"><b>[IEEE TMC]</b></font>  IEEE Transactions on Mobile Computing, 2025. <b>(CCF-A, SCI Q1, IF:7.7)</b> </i><br> </p>
+
+		<li> <a href="https://ieeexplore.ieee.org/abstract/document/10605737">DDL: Empowering Delivery Drones With Large-Scale Urban Sensing Capability </a> </li>
+			Xuecheng Chen*, Haoyang Wang*, Yuhan Cheng, Haohao Fu, Yuxuan Liu, Fan Dang, Yunhao Liu, Jinqiang Cui, <u><b>Xinlei Chen†</b></u><br>
+		<i>  <font color="#DC143C">[<b>IEEE J-STSP</b>]</font> IEEE Journal of Selected Topics in Signal Processing, 2024. </i><br> </p>
+
+		<li> <a href="https://ieeexplore.ieee.org/document/10502270">SOScheduler: Toward Proactive and Adaptive Wildfire Suppression via Multi-UAV Collaborative Scheduling </a> </li>
+			Xuecheng Chen, Zijian Xiao, Yuhan Cheng, ChenChun Hsia, Haoyang Wang, Jingao Xu, Susu Xu, Fan Dang, Xiao-Ping Zhang, Yunhao Liu, <u><b>Xinlei Chen†</b></u><br>
+			<i>  <font color="#DC143C">[<b>IEEE IOT-J</b>]</font> IEEE Internet of Things Journal </i><br> </p>
+
+		<li> <a href="https://dl.acm.org/doi/abs/10.1145/3641280">BEANet: An Energy-efficient BLE Solution for High-capacity Equipment Area Network </a> </li>
+			Yifan Xu, Fan Dang, Kebin Liu, Zhui Zhu, <u><b>Xinlei Chen</b></u>, Xu Wang, Xin Miao, Haitian Zhao <br>
+		<i>  <font color="#DC143C">[<b>ACM TOSN</b>]</font> ACM Transactions on Sensor Networks, 2024. </i> <br> </p>
+
+		<li> <a href="https://ieeexplore.ieee.org/abstract/document/10555015">LSync: A Universal Timeline-Synchronizing Solution for Live Streaming  </a> </li>
+			Fan Dang, Yifan Xu, Rongwu Xu, <u><b>Xinlei Chen</b></u>, Yunhao Liu <br>
+		<i>  <font color="#DC143C">[<b>IEEE TON</b>]</font> IEEE/ACM Transactions on Networking, 2024. </i><br> </p>
+
+		<li> <a href="https://ieeexplore.ieee.org/abstract/document/9542927/"> A wearable low-power collaborative sensing system for high-quality SSVEP-BCI signal acquisition </a> </li>
+			Rui Na, Dezhi Zheng, Ying Sun, Mingzhe Han, Shuai Wang, Shuailei Zhang, Qianxin Hui, <u><b>Xinlei Chen†</b></u>, Jun Zhang, Chun Hu <br>
+		<i>  <font color="#DC143C">[<b>IEEE IoT-J</b>]</font> IEEE Internet of Things Journal, 2021. </i><br> </p>
+
+		<li> <a href="https://ieeexplore.ieee.org/abstract/document/9542927/"> Ultralow-power sensing framework for internet of things: A smart gas meter as a case </a> </li>
+			Ziteng Wang, Chun Hu, Dezhi Zheng, <u><b>Xinlei Chen†</b></u> <br>
+		<i>  <font color="#DC143C">[<b>IEEE IoT-J</b>]</font> IEEE Internet of Things Journal, 2021. </i><br> </p>
+
+		<li> <a href="https://ieeexplore.ieee.org/abstract/document/9241405/"> Adaptive hybrid model-enabled sensing system (HMSS) for mobile fine-grained air pollution estimation </a> </li>
+			<u><b>Xinlei Chen</b></u>, Susu Xu, Xinyu Liu, Xiangxiang Xu, Hae Young Noh, Lin Zhang, Pei Zhang <br>
+		<i>  <font color="#DC143C">[<b>IEEE TMC</b>]</font> IEEE Transactions on Mobile Computing, 2020. </i><br> </p>
+
+		<li> <a href="https://dl.acm.org/doi/abs/10.1145/3382094"> H-DrunkWalk: Collaborative and adaptive navigation for heterogeneous MAV swarm </a> </li>
+			<u><b>Xinlei Chen</b></u>, Carlos Ruiz, Sihan Zeng, Liyao Gao, Aveek Purohit, Stefano Carpin, Pei Zhang <br>
+		<i>  <font color="#DC143C">[<b>ACM TOSN</b>]</font> ACM Transactions on Sensor Networks (TOSN), 2020. </i><br> </p>
+
+		<li> <a href="https://ieeexplore.ieee.org/ielaam/6488907/9091956/8964368-aam.pdf"> Pas: Prediction-based actuation system for city-scale ridesharing vehicular mobile crowdsensing </a> </li>
+			<u><b>Xinlei Chen</b></u>, Susu Xu, Jun Han, Haohao Fu, Xidong Pi, Carlee Joe-Wong, Yong Li, Lin Zhang, Hae Young Noh, Pei Zhang <br>
+		<i>  <font color="#DC143C">[<b>IEEE IoT-J</b>]</font> IEEE Internet of Things Journal, 2020. </i><br> </p>
+
+		<li> <a href="https://ieeexplore.ieee.org/abstract/document/8712442"> ilocus: Incentivizing vehicle mobility to optimize sensing distribution in crowd sensing </a> </li>
+			Susu Xu*, <u><b>Xinlei Chen*</b></u>, Xidong Pi, Carlee Joe-Wong, Pei Zhang, Hae Young Noh <br>
+		<i>  <font color="#DC143C">[<b>IEEE TMC</b>]</font> IEEE Transactions on Mobile Computing, 2019. </i><br> </p>
+
+		<li> <a href="https://dl.acm.org/doi/abs/10.1145/3382094"> Design experiences in minimalistic flying sensor node platform through sensorfly </a> </li>
+			<u><b>Xinlei Chen</b></u>, Aveek Purohit, Shijia Pan, Carlos Ruiz, Jun Han, Zheng Sun, Frank Mokaya, Patric Tague, Pei Zhang<br>
+		<i>  <font color="#DC143C">[<b>ACM TOSN</b>]</font> ACM Transactions on Sensor Networks (TOSN), 2017. </i><br> </p>
+
+
+		</td>
+		</tbody>
+		</table>
 		
 	<p> <p>
 
@@ -338,16 +397,7 @@
                <p><heading>Selected Awards</heading> </p>
 		<p> 
 	     <ul class="b"> 
-		  
-			<!-- <li>[2023] <a href="data/meituan_award_2023.pdf">1st in Low-Altitude Economy Flight Management Challenge Creative Competition</a>, Meituan Inc. | 美团第一届低空经济智能飞行管理挑战赛 创意赛 第一名,</li>
-			<li>[2023] <a href="data/best_pre_CPD_2023.pdf">Best Presentation Award</a> (<u>Top 1 out of all submissions</u>), ACM Ubicomp 2023 CPD,</li>
-			<li>[2023] The Second Prize Scholarship, Tsinghua University | 清华大学综合二等奖学金,</li>
-			<li>[2022] <a href="data/best_paper_CPD_2022.pdf">Best Paper Award</a> (<u>Top 1 out of all submissions</u>), ACM Ubicomp 2022 CPD,</li> -->
-			<!-- <li>[2022] Outstanding Undergraduate (<u>Top 1% in this year</u>), Hunan Province | 湖南省创新创业优秀本科毕业生,</li> -->
-			<!-- <li>[2022] Outstanding Undergraduate (<u>Top 3% in this year</u>), CSU | 中南大学优秀本科毕业生,</li> -->
-			<!-- <li>[2022] Outstanding Student Model Nomination (<u>Top 30 out of 30k~ students</u>), CSU | 优秀学生标兵提名,</li> -->
-			<!-- <li>[2019] National Scholarship (<u>Top 1 out of all 66 students</u>), Ministry of Education | 国家奖学金,</li>
-			<li>[2019] First Prize (<u>Top 1 out of all teams</u>) of China Robot Competition Advanced Vision Competition, CAA | 中国机器人大赛 先进视觉赛 一等奖,</li> -->
+			<li>[2025] <b>Sliver Prize</b>, the 50th International Exhibition of Inventions Geneva </li>
 			<li>[2023] <b>Best Paper Award</b>, ACM UbiComp CPD Workshop.</li>
 			<li>[2022] <b>National Overseas Early Career Award</b>, National Science Foundation of China.</li>
 			<li>[2017] <b>Best Poster Award</b>, ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN).</li>
@@ -406,56 +456,7 @@
 		</td>
         </tbody></table>
 
-	<!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-               <p><heading>Professional Services</heading> </p>
-		<p> 
-	     <ul class="b">
-		  <p> <b> Organizing Committee Member </b> </p>
-		      <li> TPC Co-Chair of  <a href="https://fmsys24.github.io/">FMSys Workshop 2024</a> </li>
-		     <li> Web Chair of ACM/IEEE IPSN 2024 </li>
-		     <li> Organizer of N2Women (Networking Networking Women) Meeting at ACM MobiSys 2023 </li>
-		     </p>
-		     
-		 <p> <b> Technical Program Committee Member </b> </p>
-		<li> IEEE ICDCS 2024 </li>
-		<li> ACM/IEEE IoTDI 2023 Posters/Demos Program </li>
-		<li> ACM SenSys 2022 Shadow Program </li>
-		</p>
-		
-              <p> <b> Invited Reviewer</b> </p>
-	      <li> IEEE INFOCOM 2022, ACM IMWUT/UbiComp 2022, ACM KDD 2021 </li>
-	       <li> IEEE Transactions on Mobile Computing (TMC), IEEE/ACM Transactions on Networking (ToN), ACM Transactions on Sensor Networks (TOSN), IEEE Internet of Things Journal (IoTJ), International Journal of Computer Vision (IJCV), IEEE Transactions on Network and Service Management (TNSM) </li>
-		</p>
 
-	     </ul>
-
-            </td>
-        </tbody></table> -->
-
-	<!-- <div align="center" width="256">
-		<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=250&t=n&d=wkiXzqfozZPOF_t6DNGFM151W5PiVzIrHseUIG_GFj4'></script>
-	</div>
-
-	<div align="center" width="256">
-	<a href="https://www.easycounter.com/">
-		<img src="https://www.easycounter.com/counter.php?haoyangwang"
-		border="0" alt="HTML Counter"></a>
-		<br>Total Visitors
-	</div>
-			
-	<p>
-	<p> -->
-
-	 <!--           CopyRight-->
-            <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                <tbody>
- 		<p style="text-align:right;">Modified from <a href="https://xmouyang.github.io/">Xiaomin Ouyang</a></p>
-                </tbody>
-            </table>
-		
-      </td>
-    </tr>
-  </table> -->
 </body>
 
 <!-- <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=Bh_ukE5Vq8_S7PMZdvQG_-pm22VHQx3fzCtcZwgh7lI"></script> -->
